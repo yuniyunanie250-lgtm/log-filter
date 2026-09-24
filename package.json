@@ -1,0 +1,14 @@
+{
+  "name": "log-filter",
+  "version": "0.1.0",
+  "description": "Build and match eth_getLogs filters offline",
+  "type": "module",
+  "bin": { "log-filter": "./src/cli.mjs" },
+  "exports": "./src/logfilter.mjs",
+  "files": ["src"],
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node src/cli.mjs", "test": "node --test test/" },
+  "keywords": ["ethereum", "logs", "eth_getLogs", "events", "filter"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/yuniyunanie250-lgtm/log-filter.git" }
+}
